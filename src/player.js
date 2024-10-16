@@ -7,18 +7,18 @@ function createPlayer() {
   // Create the player
   gameState.player = this.physics.add.sprite(100, 450, "dude");
   gameState.player.setCollideWorldBounds(true);
-  gameState.player.setGravityY(GRAVITY); // Use constant for gravity
+  gameState.player.setGravityY(GRAVITY); 
   this.physics.add.collider(gameState.player, gameState.platforms);
   // Create animations
   createPlayerAnimations.call(this); 
   // Configure controls
   gameState.cursors = this.input.keyboard.createCursorKeys();
   gameState.spacebar = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.SPACE);
-  gameState.shootKey = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.X); // Assign X key for shooting
+  gameState.shootKey = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.X);
   // Create bullets
   gameState.bullets = this.physics.add.group({
     defaultKey: "projectile",
-    maxSize: 10, // Limit the number of bullets
+    maxSize: 30, 
   });
 }
 

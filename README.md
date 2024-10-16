@@ -1,5 +1,14 @@
 # ITWP-Week7
 
+Game description: 
+In this 2D platformer game the player can collect stars and shoot skeletons to
+achieve a high score. Don't let the skeletons catch you, or it is game over!
+
+The game is based on this quide by Phaser: 
+
+Making your first Phaser 3 game
+available at: https://phaser.io/tutorials/making-your-first-phaser-3-game/part1
+
 Sources: 
 * The game is based on this guide by Phaser: 
   Phaser: Making your first Phaser 3 game, 
@@ -22,3 +31,7 @@ Sources:
   
 * Passing this to functions: 
   - MDM Web Docs: this, available: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
+  
+* Phaser Math: 
+  - Phaser docs: Namespace: Math, 
+    available: https://newdocs.phaser.io/docs/3.85.2/Phaser.Math
